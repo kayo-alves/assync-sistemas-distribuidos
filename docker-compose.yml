@@ -1,6 +1,6 @@
 version: '3'
 services:
-  rabbitmq:
+  rabbitmq: # Chama a imagem do RabbitMQ
     image: rabbitmq:3-management
     ports:
       - "5672:5672"   # Porta para comunicação AMQP
